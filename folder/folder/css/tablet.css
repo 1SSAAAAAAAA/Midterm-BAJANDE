@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ensure the image covers the area */
+        height: 100vh; /* Maintain full viewport height */
+    }
+    .header {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .nav-menu {
+        gap: 20px; /* Reduce gap between menu items */
+    }
+
+    .nav-menu a {
+        font-size: 14px; /* Smaller font size for navigation links */
+    }
+}

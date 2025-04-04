@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="folder/folder/css/style.css">
+    <link rel="stylesheet" href="folder/folder/css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="folder/folder/balong.js">
+</head>
+<body>
+    
+    <!--Header-->
+    <div class="header">
+        <div class="site-identity">
+            <h4></h4>
+        </div>
+        <div class="menu-container">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#main-div">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" onclick="signupAlert()">Sign Up</a></li>
+                <button class="fa fa-search"></button>
+            </ul>
+        </div>
+
+        <div class="side-menu-btn">
+            <img src="folder/folder/images/menu-btn.png" alt="" onclick="toggleMenu()">
+        </div>
+    </div>
+
+    <!--mobile-->
+    <div class="menu-container-mobile">
+        <img class="close-btn" src="folder/folder/images/close.png" alt="" onclick="toggleMenu()">
+        <ul class="nav-menu-mobile">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#main-div">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+    </div>
+
+    <p id="output"></p>
+
+    <!--container-->
+    <div class="container" id="home">
+        <div class="ona"> 
+            <h1>MARVEL MATTHIAS BAJANDE</h1>
+        </div> 
+        <div class="ona-1">
+            <h2>WEB DEVELOPER | CYBERSECURITY ANALYST | GAME DEVELOPER</h2>
+        </div>
+    </div>
+
+    <!--about me-->
+    <div class="hero" id="main-div">
+        <div style="position: relative;">
+            <img src="folder/folder/images/hero.jpg" alt="hero image">
+        </div>
+        <div class="hero-heading">
+            <h1>Marvel Matthias Bajande</h1>
+            <p class="sub-heading">Discover My Expertise as a Full-Stack Developer</p>
+            <p class="small-text">Crafting Innovation Digital Solutions for Your Business</p>
+        </div>
+    </div>
+
+    <!--eh-->
+    <div class="hero1" id="portfolio">
+        <div style="position: relative;" class="hero-heading1">
+            <h1 style="color: white;">Marvel Matthias Bajande</h1>
+            <p class="sub-heading1">I am an Engineering graduate from Vellore Institute of Technology. I have a bachelor's degree in B.Tech CSE and a specialisation in Digital Forensics and Cyber security. I was born in Tamil Nadu and eversince I have lived in different cities of India. As a person who has had an early exposure to so many different cultures and people, I tend to be good with socialising with others. This in turn has helped me very much to work efficiently in groups. As of now, I am an Engineer, enthusiatic Web Developer, a passionate Cyber security analyst, a vivid traveller....</p>
+        </div>
+        <div>
+            <img src="folder/folder/images/img2.jpg" alt="hero1 image">
+        </div>
+    </div>
+
+    <!--container-->
+    <div class="hero2">
+        <div class="contact-info">
+            <h3>Marvel Matthias Bajande | marvelmatthiasbajande@gmail.com | Web Dev Profile</h3>
+        </div>
+        <div>
+            <p class="social-media-text">Follow me on Social Media</p> <!-- New text element -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/marvelmatthiascasino.bajande" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/theycallme1ssa_/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://telegram.org" target="_blank" class="social-icon"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://github.com/1SSAAAAAAAA" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--img-->
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

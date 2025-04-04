@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .cont-0 h3 {
+        font-size: 12px; /* Smaller font size for tablets */
+    }
+    .hero {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align items */
+        gap: 50px; /* Reduce gap between image and text */
+        padding: 50px; /* Reduce padding */
+    }
+
+    .hero img {
+        width: 80%; /* Make image responsive */
+        max-width: 300px; /* Limit max width */
+    }
+
+    .hero-heading h1 {
+        font-size: 48px; /* Reduce font size for h1 */
+    }
+
+    .sub-heading {
+        font-size: 16px; /* Reduce font size for subheading */
+    }
+
+    .small-text {
+        font-size: 14px; /* Reduce font size for small text */
+    }
+    .ona {
+        padding: 0px 50px; /* Reduce padding for tablets */
+        letter-spacing: 3px; /* Reduce letter spacing for tablets */
+    }
+    .ona-1 {
+        margin-bottom: 70px; /* Reduce margin for tablets */
+    }
+    nav a {
+        font-size: 14px; /* Smaller font size for tablets */
+    }
+    .social-media-text {
+        font-size: 14px; /* Smaller font size for social media text */
+    }
+
+    .social-icons .social-icon {
+        font-size: 20px; /* Smaller font size for social icons */
+    }
+}

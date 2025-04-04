@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .cont-0 h3 {
+        font-size: 10px; /* Even smaller font size for mobile */
+    }
+    .hero {
+        padding: 20px; /* Further reduce padding */
+    }
+
+    .hero img {
+        width: 100%; /* Make image full width */
+        max-width: none; /* Remove max width */
+    }
+
+    .hero-heading h1 {
+        font-size: 36px; /* Further reduce font size for h1 */
+    }
+
+    .sub-heading {
+        font-size: 14px; /* Further reduce font size for subheading */
+    }
+
+    .small-text {
+        font-size: 12px; /* Further reduce font size for small text */
+    }
+    .ona {
+        padding: 0px 20px; /* Further reduce padding for mobile */
+        letter-spacing: 2px; /* Further reduce letter spacing for mobile */
+        font-size: 14px; /* Optional: Adjust font size for mobile */
+    }
+    .ona-1 {
+        margin-bottom: 50px; /* Further reduce margin for mobile */
+        font-size: 14px; /* Optional: Adjust font size for mobile */
+    }
+    .social-media-text {
+        font-size: 12px; /* Even smaller font size for social media text */
+    }
+    .social-icons .social-icon {
+        font-size: 18px; /* Even smaller font size for social icons */
+    }
+    nav a {
+        font-size: 12px; /* Even smaller font size for mobile */
+    }
+}
